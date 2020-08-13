@@ -3,7 +3,7 @@
 //Question 1
 var counter = 15;
 for (counter; counter <= 25; counter++) {
-  if (counter % 2 == 0) {
+  if (counter % 2 === 0) {
     console.log(counter);
   }
 }
